@@ -1,0 +1,31 @@
+{
+  "project": "/home/tuche-kaki/Documents/Projets/Projet_Perso/IA/face_recognition",
+
+
+  "preprocess_utils": "src/utils/preprocess_utils.py",
+  "training_utils": "src/utils/training_utils.py",
+  "prediction_utils": "src/utils/prediction_utils.py",
+
+  "preprocess_script": "src/experiments/preprocess.py",
+  "training_script": "src/experiments/training.py",
+  "prediction_script": "src/experiments/prediction.py",
+
+  "preprocess_dashboard": "dashboard/preprocess.csv",
+  "training_dashboard": "dashboard/training.csv",
+  "prediction_dashboard": "dashboard/prediction.csv",
+
+  "preprocess_config": "config/preprocess.json",
+  "training_config": "config/training.json",
+  "prediction_config": "config/prediction.json",
+
+  "preprocess_results": "results/preprocess",
+  "training_results": "results/training",
+  "prediction_results": "results/prediction",
+
+
+  "keras_callbacks": "src/keras/callbacks.py",
+  "keras_losses": "src/keras/losses.py",
+  "keras_metrics": "src/keras/metrics.py",
+  "keras_models": "src/keras/models.py",
+  "keras_custom_layers": "src/keras/custom_layers.py"
+}
